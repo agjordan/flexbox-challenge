@@ -66,6 +66,8 @@ header {
 .rh {
     border: 2px solid black;
     flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .lh {
