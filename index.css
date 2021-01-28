@@ -1,108 +1,108 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    display: flex;
-    height: 50px;
+  display: flex;
+  height: 50px;
 }
 
 .logo {
-    display: flex;
-    width: 200px;
-    background-color: #268721;
-    color: white;
-    font-size: 20px;
-    font-family: Roboto, 'Helvetica Neue', sans-serif;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 200px;
+  background-color: #268721;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
 .links-container {
-    display: flex;
-    background-color: black;
-    width: 100%;
-    color: white;
-    justify-content: flex-end;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: white;
+  justify-content: flex-end;
 }
 
 .links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
 }
 
 .link {
-    width: 200px;
+  width: 200px;
 }
 
 .panel {
-    border: 2px solid black;
-    margin: 10px;
-    padding: 20px;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .container-main {
-    display: flex;
+  display: flex;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
 
 .right {
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
 }
 
 .rh {
-    border: 2px solid black;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
+  border: 2px solid black;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
 }
 
 .lh {
-    height: 33.33%;
+  height: 33.33%;
 }
 
 h3 {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 ul {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 li {
-    margin: 10px;
+  margin: 10px;
 }
 
 .black-square {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    margin: 20px;
-    color: white;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin: 20px;
+  color: white;
 }
 
 #first {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 #second {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 #third {
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
