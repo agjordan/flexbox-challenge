@@ -44,6 +44,7 @@ header {
     padding: 20px;
     padding-left: 20px;
     display: flex;
+    align-items: center;
 }
 
 .container-main {
@@ -64,6 +65,7 @@ header {
 
 .rh {
     border: 2px solid black;
+    flex-direction: column;
 }
 
 .lh {
