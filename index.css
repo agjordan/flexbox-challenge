@@ -43,6 +43,7 @@ header {
     margin: 10px;
     padding: 20px;
     padding-left: 20px;
+    display: flex;
 }
 
 .container-main {
@@ -79,4 +80,25 @@ ul {
 
 li {
     margin: 10px;
+}
+
+.black-square {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 20px;
+    color: white;
+}
+
+#first {
+    justify-content: space-around;
+}
+
+#second {
+    justify-content: flex-end;
+}
+
+#third {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
